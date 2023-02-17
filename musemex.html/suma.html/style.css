@@ -1,0 +1,1183 @@
+*::before,
+*::after{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+.sticky{
+    width: 100%;
+    display: flex;
+    /*align-items: center;*/
+    text-align: right;
+    justify-content: space-between;
+    background-color: rgba(130, 134, 134, 0.6);
+    position: fixed;
+    top:0;
+    padding: 1px 1px;
+    font-family:'Times New Roman', Times, serif;
+    backdrop-filter: blur(6px);
+    box-shadow: 5px 3px 5px 3px white;
+}    
+.sticky .rightmenu1{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        display: flex;
+        float: left;
+        text-align: left;
+        
+}    
+.sticky rightmenu1{
+    width: 75%;
+    height: 100px;
+    float: right;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.sticky ul{
+    list-style: none;
+}
+.sticky ul li{
+    display:inline-block;
+}
+.sticky ul li a{
+    margin-right: 40px;
+}
+.sticky a{
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.bgimage{
+    background-image: url("mu1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.3);
+    background-position: center;
+    box-sizing: border-box;    
+
+}
+.leftmenu{
+    width: 20%;
+    line-height: 100px;
+    float: left;
+}
+.leftmenu h2{
+    padding-left: 40px;
+    font-weight: bolder;
+    color: orange;
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+}
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.rightmenu ul{
+margin-top: 15px;
+text-decoration: none;
+color: black;
+}
+.rightmenu ul li{
+    display: inline-block; 
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    line-height: 100px;
+    margin-left: 50px;
+}
+.rightmenu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.rightmenu ul li:hover{
+    color: orangered;
+}
+.text{
+    width: 100%;
+    margin-top: 250px;
+    text-transform: uppercase;
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Rowdies', cursive;
+     font-size: 300%;
+}
+
+.text h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url("back1.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:back 20s linear infinite ;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+
+    }
+}
+.leftmenu2{
+    text-align: center;
+}
+.text3 h1{
+    text-align: center;
+    font-weight: bolder;
+    color: orange;
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;
+}
+.menu3{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.2);
+    background-position: center;
+    box-sizing: border-box;
+}   
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: black;
+}
+.img3{
+    cursor: pointer;
+    background-image: url("banr1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80vh;
+}
+.container0{
+    background-color: #f9f9f9;
+    padding-left: 1%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner img{
+    width: 100%;
+    padding-left: 2%;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;   
+}
+
+.main img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+   
+}
+.head{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(235, 230, 230);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100px;
+    color: rgb(240, 146, 6);
+    font-size: 30px;
+    text-align: center;
+    padding-top:30px;
+    color: transparent;
+    -webkit-text-stroke: 1px  rgb(19, 18, 18);
+    background-image: url("lw6.jpg");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:back 20s linear infinite ;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+
+    }
+}
+
+
+.main{
+    
+    /* border: 1px solid red; */
+    display:grid;
+    /* width: 14em; */
+    grid-gap: 3rem;
+   
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    /* grid-template-columns: auto; */
+    align-items: start;
+    background-color: white;
+    padding-top: 70px;
+   
+}
+.main img:hover{
+   
+    cursor: pointer;
+    scale: 1.05;
+    transition: all;
+    transition-duration: 1s;
+   
+}
+.card-img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+   .card-btn{
+    text-align: center;
+    position: relative;
+    background-color:rgb(5, 99, 28);
+    color:white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+    border: 2px solid rgb(5, 104, 26);
+    transition-duration: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+  .card-btn:hover {
+    background-color: white;
+    color: rgb(15, 17, 15);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.5s;
+    border-radius: 5%;
+    background-color: rgb(224, 230, 230);
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+  }
+  
+  /* Add some padding inside the card container */
+  .card-content {
+    padding: 2px 16px;
+  }
+  .card-header{
+    
+    font-size: 130%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:8px;
+    color: blue;
+  }
+  .year{
+    font-size:20px;
+    font-family:  Helvetica, sans-serif;
+    padding: 0px;
+    text-align: center;
+  }
+ .c-map{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: row;
+
+
+ }
+ iframe{
+    width: 50%;
+    height: 350px;
+    filter: invert(100);
+ }
+ .banner{
+    background: rgb(243, 175, 74) url(../nbn2.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner  h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner  p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-1{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner1{
+    background: rgb(218, 255, 253) url(../bn1.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner1 .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner1  h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner1  p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row1{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-2{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner1 h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner2{
+    background: rgb(204, 230, 238) url(../bn2.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner2 .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner2  h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 4em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner2  p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row2{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-3{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner2 h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner3{
+    background: rgb(197, 228, 230) url(../CHATRAPATI.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner3 .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner3 h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner3 p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row3{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-4{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner3 h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner3{
+    background: rgb(243, 175, 74) url(../CHATRAPATI.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner3 .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner3 h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner3 p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row3{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-4{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner3 h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner4{
+    background: rgb(243, 175, 74) url(../CALICO.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner4 .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner4 h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner4 p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row4{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-5{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner4 h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner5{
+    background: rgb(243, 175, 74) url(../CHENNAI.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner5 .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner5 h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner5 p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row5{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-6{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner5 h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner6{
+    background: rgb(243, 175, 74) url(../NAPHIER.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner6 .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner6 h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner6 p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row6{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-6{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner6 h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner7{
+    background: rgb(182, 239, 241) url(../bn4.jpg);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+ }
+ .banner7 .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+ }
+  .banner7 h1{
+    color: black;
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    font-weight: 600; 
+ }
+ .banner7 p{
+    color: rgb(245, 236, 236);
+    -webkit-text-stroke: 1px rgb(247, 243, 243);
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    font-weight: 600; 
+ }
+ .row7{
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .col-7{
+    max-width: 800px;
+    padding-left: 10px;
+    color: #333;
+ }
+ .banner7 h2{
+    font-size: 36px;
+    font-weight: 800px;
+    line-height: 50px;
+    margin-bottom: 30px;
+ }
+ .banner8{
+   background: rgb(196, 232, 241) url(../JAI-VILAS.jpg);
+   background-blend-mode: multiply;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.banner8 .waves{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+}
+ .banner8 h1{
+   color: black;
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 5em;
+   padding-top: 100px;
+   font-weight: 600; 
+}
+.banner8 p{
+   color: rgb(245, 236, 236);
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 3em;
+   padding-bottom: 30px;
+   font-weight: 600; 
+}
+.row8{
+   
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.col-8{
+   max-width: 800px;
+   padding-left: 10px;
+   color: #333;
+}
+.banner8 h2{
+   font-size: 36px;
+   font-weight: 800px;
+   line-height: 50px;
+   margin-bottom: 30px;
+}
+.banner9{
+   background: rgb(196, 232, 241) url(../CHANDIGARD.JPG);
+   background-blend-mode: multiply;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.banner9 .waves{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+}
+ .banner9 h1{
+   color: black;
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 5em;
+   padding-top: 100px;
+   font-weight: 600; 
+}
+.banner9 p{
+   color: rgb(245, 236, 236);
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 3em;
+   padding-bottom: 30px;
+   font-weight: 600; 
+}
+.row9{
+   
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.col-9{
+   max-width: 800px;
+   padding-left: 10px;
+   color: #333;
+}
+.banner9 h2{
+   font-size: 36px;
+   font-weight: 800px;
+   line-height: 50px;
+   margin-bottom: 30px;
+}
+.banner10{
+   background: rgb(196, 232, 241) url(../UDAIPUR.JPG);
+   background-blend-mode: multiply;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.banner10 .waves{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+}
+ .banner10 h1{
+   color: black;
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 5em;
+   padding-top: 100px;
+   font-weight: 600; 
+}
+.banner10 p{
+   color: rgb(245, 236, 236);
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 3em;
+   padding-bottom: 30px;
+   font-weight: 600; 
+}
+.row9{
+   
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.col-10{
+   max-width: 800px;
+   padding-left: 10px;
+   color: #333;
+}
+.banner10 h2{
+   font-size: 36px;
+   font-weight: 800px;
+   line-height: 50px;
+   margin-bottom: 30px;
+}
+.banner11{
+   background: rgb(196, 232, 241) url(../ANANDPUR.JPG);
+   background-blend-mode: multiply;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.banner11 .waves{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+}
+ .banner11 h1{
+   color: black;
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 5em;
+   padding-top: 100px;
+   font-weight: 600; 
+}
+.banner11 p{
+   color: rgb(245, 236, 236);
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 3em;
+   padding-bottom: 30px;
+   font-weight: 600; 
+}
+.row10{
+   
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.col-11{
+   max-width: 800px;
+   padding-left: 10px;
+   color: #333;
+}
+.banner11 h2{
+   font-size: 36px;
+   font-weight: 800px;
+   line-height: 50px;
+   margin-bottom: 30px;
+}
+.banner12{
+   background: rgb(196, 232, 241) url(../victoria.jpg);
+   background-blend-mode: multiply;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.banner12 .waves{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+}
+ .banner12 h1{
+   color: black;
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 5em;
+   padding-top: 100px;
+   font-weight: 600; 
+}
+.banner12 p{
+   color: rgb(245, 236, 236);
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 3em;
+   padding-bottom: 30px;
+   font-weight: 600; 
+}
+.row11{
+   
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.col-12{
+   max-width: 800px;
+   padding-left: 10px;
+   color: #333;
+}
+.banner12 h2{
+   font-size: 36px;
+   font-weight: 800px;
+   line-height: 50px;
+   margin-bottom: 30px;
+}
+.banner13{
+   background: rgb(196, 232, 241) url(../PARTITION.JPG);
+   background-blend-mode: multiply;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.banner13 .waves{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+}
+ .banner13 h1{
+   color: black;
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 5em;
+   padding-top: 100px;
+   font-weight: 600; 
+}
+.banner13 p{
+   color: rgb(245, 236, 236);
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 3em;
+   padding-bottom: 30px;
+   font-weight: 600; 
+}
+.row12{
+   
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.col-13{
+   max-width: 800px;
+   padding-left: 10px;
+   color: #333;
+}
+.banner13 h2{
+   font-size: 36px;
+   font-weight: 800px;
+   line-height: 50px;
+   margin-bottom: 30px;
+}
+.banner14{
+   background: rgb(196, 232, 241) url(../ALBERT.jpg);
+   background-blend-mode: multiply;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.banner14 .waves{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+}
+ .banner14 h1{
+   color: black;
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 5em;
+   padding-top: 100px;
+   font-weight: 600; 
+}
+.banner14 p{
+   color: rgb(245, 236, 236);
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 3em;
+   padding-bottom: 30px;
+   font-weight: 600; 
+}
+.row13{
+   
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.col-14{
+   max-width: 800px;
+   padding-left: 10px;
+   color: #333;
+}
+.banner14 h2{
+   font-size: 36px;
+   font-weight: 800px;
+   line-height: 50px;
+   margin-bottom: 30px;
+}
+.banner15{
+   background: rgb(196, 232, 241) url(../VISAKHAPATNAM.JPG);
+   background-blend-mode: multiply;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   position: relative;
+   justify-content: center;
+}
+.banner15 .waves{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+}
+ .banner15 h1{
+   color: black;
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 5em;
+   padding-top: 100px;
+   font-weight: 600; 
+}
+.banner15 p{
+   color: rgb(245, 236, 236);
+   -webkit-text-stroke: 1px rgb(247, 243, 243);
+   text-align: center;
+   font-size: 3em;
+   padding-bottom: 30px;
+   font-weight: 600; 
+}
+.row14{
+   
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+.col-15{
+   max-width: 800px;
+   padding-left: 10px;
+   color: #333;
+}
+.banner15 h2{
+   font-size: 36px;
+   font-weight: 800px;
+   line-height: 50px;
+   margin-bottom: 30px;
+}
+#more {display: none;}
+.col-2 p{
+   font-size: 40px;
+   color:black;
+}
+.col-2 button{
+   font-size: 16px;
+   border-radius: 5px;
+   text-align: center;
+    position: relative;
+    background-color: rgb(5, 99, 28);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    border: 2px solid rgb(14, 15, 14);
+    transition-duration: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
